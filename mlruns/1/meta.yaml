@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/bonnyaigergo/Documents/GitHub/Deep-Temporal-Clustering/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: Crop_Conv1D_exp

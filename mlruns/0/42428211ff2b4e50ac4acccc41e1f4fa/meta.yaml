@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bonnyaigergo/Documents/GitHub/Deep-Temporal-Clustering/mlruns/0/42428211ff2b4e50ac4acccc41e1f4fa/artifacts
+end_time: 1655862492706
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 42428211ff2b4e50ac4acccc41e1f4fa
+run_uuid: 42428211ff2b4e50ac4acccc41e1f4fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1655862479877
+status: 3
+tags: []
+user_id: bonnyaigergo
