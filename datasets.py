@@ -158,24 +158,15 @@ def prepare_inputdata(dataset_name: str,
 class CustomDataset(Dataset):
     """Custom dataset loader"""
 
-    def __init__(self, X, train=True):
-        self.train = train
-        if self.train:
-            self.X_train = X
-        else:
-            self.X_val = X
+    def __init__(self, X):
+        self.X = X
 
     def __len__(self):
-        if self.train:
-            return self.X_train.shape[0]
-        else:
-            return self.X_val.shape[0]
+        return self.X.shape[0]
 
     def __getitem__(self, item):
-        if self.train:
-            return self.X_train[item]
-        else:
-            return self.X_val[item]
+        return self.X[item]
+
 
 
 if __name__ == "__main__":

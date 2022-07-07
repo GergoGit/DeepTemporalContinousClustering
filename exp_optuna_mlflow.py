@@ -93,8 +93,8 @@ def objective_ae(trial: optuna.Trial, dataset: str=DATASET, model_type: str=MODE
          n_timesteps = X.shape[1]
          n_features = 1
          
-         train_set = CustomDataset(X_train, train=True)
-         val_set = CustomDataset(X_val, train=False)
+         train_set = CustomDataset(X_train)
+         val_set = CustomDataset(X_val)
     
          # Create data loader for pytorch
          train_dataloader = DataLoader(train_set, batch_size=BATCH_SIZE, shuffle=True)
